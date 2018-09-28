@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6df45dcd-1134-45cd-9d6b-929ec410206a" name="Default Changelist" comment="" />
+    <list default="true" id="6df45dcd-1134-45cd-9d6b-929ec410206a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,7 +14,7 @@
     <session id="1837261513">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.opened" value="3" />
@@ -155,12 +157,12 @@
       <updated>1537895929099</updated>
       <workItem from="1537895930221" duration="154000" />
       <workItem from="1537989548333" duration="7642000" />
-      <workItem from="1538163443697" duration="278000" />
+      <workItem from="1538163443697" duration="718000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8074000" />
+    <option name="totallyTimeSpent" value="8514000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
