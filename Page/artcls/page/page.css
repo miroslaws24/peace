@@ -20,7 +20,7 @@ body{
 .logo{
 	width: 100px;
 	height: 40px;
-	background-image: url('/img/logo-light.png');
+	background-image: url('/Static/img/logo-light.png');
 	float: left;
 	margin: 5px 0;
 }

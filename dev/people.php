@@ -26,9 +26,9 @@
 			elseif($frid !== $_SESSION['id']){
 				echo '
 					<div class="man_card">
-						<div class="img_card" style="background-image: url(new_user/'.$row['name_avatar'].')"></div>
-						<img class="add_fr_icon" src="/img/add.png" />
-						<a class="p_man" href=user.php?id='.$frid.'>'.$name.'</a>
+						<div class="img_card" style="background-image: url(new_user/'.$row['name_avatar']. ')"></div>
+						<img class="add_fr_icon" src="/Static/img/add.png" />
+						<a class="p_man" href=user.php?id=' .$frid.'>'.$name.'</a>
 						<p class="p_man_country">'.$country.'</p>
 						<a class="p_man_country" href=users/index.php?id='.$_SESSION['id'].'&frid='.$frid.'>Написать сообщение</a>
 					</div>

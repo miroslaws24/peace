@@ -79,13 +79,13 @@ body{
 .logo{
 	width: 100px;
 	height: 40px;
-	background-image: url('/img/logo-light.png');
+	background-image: url('/Static/img/logo-light.png');
 	float: left;
 	margin: 5px 0;
 	transition: 0.6s;
 }
 .logo:hover{
-	background-image: url('/img/logo-light2.png');
+	background-image: url('/Static/img/logo-light2.png');
 }
 .menu{
 	width: auto;

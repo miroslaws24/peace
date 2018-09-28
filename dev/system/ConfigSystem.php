@@ -23,5 +23,7 @@ class ConfigSystem
             PDO::ATTR_EMULATE_PREPARES   => false,
         ];
         $pdo = new PDO($dsn, DB_LOGIN, DB_PASS, $opt);
+
+        return $pdo;
     }
 }

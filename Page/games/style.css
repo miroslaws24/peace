@@ -83,13 +83,13 @@ body{
 .logo{
 	width: 100px;
 	height: 40px;
-	background-image: url('/img/logo-light.png');
+	background-image: url('/Static/img/logo-light.png');
 	float: left;
 	margin: 5px 0;
 	transition: 0.6s;
 }
 .logo:hover{
-	background-image: url('/img/logo-light2.png');
+	background-image: url('/Static/img/logo-light2.png');
 }
 .menu{
 	width: auto;
@@ -254,13 +254,13 @@ body{
 	height: 20px;
 	margin: 40px 15px;
 	transition: 0.4s;
-	background-image: url(/img/main.png);
+	background-image: url(/Static/img/main.png);
 	background-size: cover;
 	background-color: #252525;
 	cursor: pointer;
 }
 .icon_main:hover{
-	background-image: url(/img/main2.png);
+	background-image: url(/Static/img/main2.png);
 	background-size: cover;
 	background-color: #fff;
 	border-radius: 3px;
@@ -270,13 +270,13 @@ body{
 	height: 20px;
 	margin: 40px 15px;
 	transition: 0.4s;
-	background-image: url(/img/news.png);
+	background-image: url(/Static/img/news.png);
 	background-size: cover;
 	background-color: #252525;
 	cursor: pointer;
 }
 .icon_news:hover{
-	background-image: url(/img/news2.png);
+	background-image: url(/Static/img/news2.png);
 	background-size: cover;
 	background-color: #fff;
 	border-radius: 3px;
@@ -286,13 +286,13 @@ body{
 	height: 20px;
 	margin: 40px 15px;
 	transition: 0.4s;
-	background-image: url(/img/dz.png);
+	background-image: url(/Static/img/dz.png);
 	background-size: cover;
 	background-color: #252525;
 	cursor: pointer;
 }
 .icon_dz:hover{
-	background-image: url(/img/dz2.png);
+	background-image: url(/Static/img/dz2.png);
 	background-size: cover;
 	background-color: #fff;
 	border-radius: 3px;
@@ -302,7 +302,7 @@ body{
 	height: 20px;
 	margin: 40px 15px;
 	transition: 0.4s;
-	background-image: url(/img/top.png);
+	background-image: url(/Static/img/top.png);
 	background-size: cover;
 	background-color: #252525;
 	cursor: pointer;
@@ -362,14 +362,14 @@ body{
 .edit{
 	width: 20px;
 	height: 20px;
-	background: url(/img/edit.png);
+	background: url(/Static/img/edit.png);
 	background-size: cover;
 	float: right;
 	cursor: pointer;
 }
 
 .edit:hover{
-	background: url(/img/edit_after.png);
+	background: url(/Static/img/edit_after.png);
 	background-size: cover;
 }
 .friend_list{

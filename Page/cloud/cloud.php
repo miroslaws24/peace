@@ -39,8 +39,8 @@
 			<div class="content">
 				<div class="left-menu">
 					<a class="href_logo" href="#"><img class="logotip" src="/../img/peace100px.png"></a>
-					<a class="href_left" href=cloud.php?id=<?php echo $_SESSION['id']; ?>&mode=photo>Фото</a>
-					<a class="href_left" href=cloud.php?id=<?php echo $_SESSION['id']; ?>&mode=music>Музыка</a>
+					<a class="href_left" href=cloud.php?id=<?php>Фото</a>
+					<a class="href_left" href=cloud.php?id=<?php>Музыка</a>
 					<a class="href_left" href="#">Заметки</a>
 					<a class="href_left" href="#">Настройки</a>
 				</div>

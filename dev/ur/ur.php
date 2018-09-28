@@ -113,15 +113,15 @@
 							<div id="read_news'.$id.'" class="read_news">
 								<span class="text_news">'.$posttext.'</span>
 							</div>
-							<div id="like_news'.$id.'" class="like_news">
-								<img class="img_like love" src="/img/love.png">
-								<span class="counter">'.$love.'</span>
-								<img class="img_like super" src="/img/super.png">
-								<span class="counter">'.$super.'</span>
-								<img class="img_like fine" src="/img/fine.png">
-								<span class="counter">'.$fine.'</span>
-								<img class="img_like fu" src="/img/fu.png">
-								<span class="counter">'.$fu.'</span>
+							<div id="like_news'.$id. '" class="like_news">
+								<img class="img_like love" src="/Static/img/love.png">
+								<span class="counter">' .$love. '</span>
+								<img class="img_like super" src="/Static/img/super.png">
+								<span class="counter">' .$super. '</span>
+								<img class="img_like fine" src="/Static/img/fine.png">
+								<span class="counter">' .$fine. '</span>
+								<img class="img_like fu" src="/Static/img/fu.png">
+								<span class="counter">' .$fu.'</span>
 							</div>
 							<div id="name_news'.$id.'" class="name_news">
 								<span class="title_news">'.$title.'</span>

@@ -49,14 +49,14 @@
 								<span class="text_news">'.$posttext.'</span>
 							</div>
 							<div id="like_news'.$id.'" class="like_news">
-								<a href=dev/news/love.php?id='.$_SESSION['id'].'&art='.$id.'&h=1><img class="img_like love" src="/img/love.png"></a>
-								<span class="counter">'.$love.'</span>
-								<a href=dev/news/love.php?id='.$_SESSION['id'].'&art='.$id.'&h=2><img class="img_like super" src="/img/super.png"></a>
-								<span class="counter">'.$super.'</span>
-								<a href=dev/news/love.php?id='.$_SESSION['id'].'&art='.$id.'&h=3><img class="img_like fine" src="/img/fine.png"></a>
-								<span class="counter">'.$fine.'</span>
-								<a href=dev/news/love.php?id='.$_SESSION['id'].'&art='.$id.'&h=4><img class="img_like fu" src="/img/fu.png"></a>
-								<span class="counter">'.$fu.'</span>
+								<a href=dev/news/love.php?id='.$_SESSION['id'].'&art='.$id. '&h=1><img class="img_like love" src="/Static/img/love.png"></a>
+								<span class="counter">' .$love.'</span>
+								<a href=dev/news/love.php?id='.$_SESSION['id'].'&art='.$id. '&h=2><img class="img_like super" src="/Static/img/super.png"></a>
+								<span class="counter">' .$super.'</span>
+								<a href=dev/news/love.php?id='.$_SESSION['id'].'&art='.$id. '&h=3><img class="img_like fine" src="/Static/img/fine.png"></a>
+								<span class="counter">' .$fine.'</span>
+								<a href=dev/news/love.php?id='.$_SESSION['id'].'&art='.$id. '&h=4><img class="img_like fu" src="/Static/img/fu.png"></a>
+								<span class="counter">' .$fu.'</span>
 							</div>
 							<div id="name_news'.$id.'" class="name_news">
 								<span class="title_news">'.$title.'</span>

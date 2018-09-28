@@ -11,27 +11,8 @@ class DataBase
     public function addInBase($sql)
     {
         $configSystem = new configSystem();
-        $configSystem->connectToBase();
+        $pdo = $configSystem->connectToBase();
 
-
-        return $pdo->query($sql);
-    }
-
-    public function selectFromBase($sql)
-    {
-        $configSystem = new configSystem();
-        $configSystem->connectToBase();
-
-        $pdo = new configSystem($dsn, $login, $password, $opt);
-        return $pdo->query($sql);
-    }
-
-    public function updateBase($sql)
-    {
-        $configSystem = new configSystem();
-        $configSystem->connectToBase();
-
-        $pdo = new configSystem($dsn, $login, $password, $opt);
-        return $pdo->query($sql);
+        return $pdo->quer($sql);
     }
 }

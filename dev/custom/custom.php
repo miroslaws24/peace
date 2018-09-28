@@ -12,7 +12,7 @@
 			}
 			@font-face {
 				font-family: FuturaPTMedium;
-				src: url(../../FuturaPTMedium.otf);
+				src: url(../../Static/Fonts/FuturaPTMedium.otf);
 			}
 		</style>
 	</head>
