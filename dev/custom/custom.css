@@ -1,0 +1,141 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.edit_cont{
+	width: 1000px;
+	margin: 0 20%;
+	height: 100vh;
+	position: fixed;
+	border-left: 1px solid #f1f1f1;
+	border-right: 1px solid #f1f1f1;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+.edit_ava{
+	width: 100%;
+	height: 150px;
+	margin-top: 20px;
+}
+.edit_title{
+	padding: 2%;
+	color: #444;
+	font-size: 20px;
+	font-family: FuturaPTMedium;
+}
+.edit_out{
+	width: 96%;
+	height: 50px;
+	margin: 10px 2%;
+	border: 1px solid #f1f1f1;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.2s;
+}
+.edit_for_input{
+	width: 150px;
+	height: 40px;
+	float: left;
+	border-radius: 5px;
+	border: 1px solid #f1f1f1;
+	margin: 5px;
+	text-align: center;
+	transition: 0.2s;
+}
+.edit_for_input span{
+	font-family: FuturaPTMedium;
+	color: #B0B0B0;
+	line-height: 40px;
+	transition: 0.2s;
+}
+.edit_out:hover{
+	border: 1px solid #2196f3;
+}
+.edit_out:hover .edit_for_input span{
+	color: #fff;
+}
+.edit_out:hover .edit_for_input{
+	color: #fff;
+	background: #2196f3;
+	border: 1px solid #2196f3;
+}
+.uplava{
+	width: 100%;
+	height: 50px;
+	opacity: 0;
+	position: absolute;
+	cursor: pointer;
+}
+.edit_name_file{
+	width: 200px;
+	height: 50px;
+	float: left;
+}
+#name_file{
+	height: 30px;
+	margin: 10px 0;
+	border: 0;
+	color: #B0B0B0;
+}
+.edit_input{
+	width: 100%;
+	height: 50px;
+	border: 0;
+	padding: 5px;
+	color: #B0B0B0;
+	outline: none;
+}
+.edit_title_un{
+	position: absolute;
+	font-family: FuturaPTMedium;
+	margin-left: 2px;
+	color: #B0B0B0;
+	font-size: 11px;
+}
+.logo_block{
+	width: 100%;
+	height: 150px;
+	background-color: #2196f3;
+	position: relative;
+}
+.logo{
+	height: 150px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.edit_title_2{
+	font-family: FuturaPTMedium;
+	margin-left: 2%;
+	margin-top: 10px;
+	color: #444;
+	font-size: 15px;
+	display: block;
+	width: 100%;
+}
+.buttons{
+	width: 100%;
+	height: 70xp;
+	margin-top: 40px;
+	float: left;
+}
+.button{
+	width: 150px;
+	height: 40px;
+	float: left;
+	border-radius: 5px;
+	background: #2196f3;
+	border: 0;
+	outline: none;
+	text-align: center;
+	font-family: FuturaPTMedium;
+	color: #fff;
+	transition: 0.2s;
+	cursor: pointer;
+}
+::-webkit-scrollbar {
+  width: 0;
+}

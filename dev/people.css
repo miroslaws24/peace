@@ -1,0 +1,66 @@
+.man_card{
+	width: 600px;
+	height: 100px;
+	border-bottom: 1px solid #F5F6F7;
+	border-top: 1px solid #F5F6F7;
+	float: left;
+}
+.h2_people{
+	margin: 10px 10px;
+}
+.input_search{
+	width: 580px;
+	height: 40px;
+	margin: 10px 10px;
+	border: 1px solid #F5F6F7;
+	outline: none;
+	padding:0 10px;
+}
+.img_card{
+	background-size: cover;
+	width: 80px;
+	height: 80px;
+	float: left;
+	margin: 10px 10px;
+}
+.p_man{
+	float: left;
+	width: 350px;
+	display: block;
+	font-family: FuturaPTMedium;
+	font-size: 17px;
+	color: #444;
+	margin-top: 10px;
+	margin-left: 10px;
+	text-decoration: none;
+}
+.send_u{
+	font-size: 14px;
+	color: #8a8a8a;
+}
+.p_man:hover{
+	color: #2196f3;
+}
+.p_man_country{
+	float: left;
+	width: 350px;
+	display: block;
+	font-family: FuturaPTMedium;
+	font-size: 12px;
+	color: #B2B2B2;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.prev_man_card{
+	float: right;
+	width: 40px;
+	height: 100px;
+	background: #A6DBFE;
+	margin-top: -30px;
+	text-align: center;
+}
+.nexttoman{
+	color: #fff;
+	font-size: 30px;
+	line-height: 100px;
+}

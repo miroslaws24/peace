@@ -1,0 +1,121 @@
+
+body{
+	background: #F5F5F5;
+}
+.top{
+	width: 400px;
+	height: 50px;
+	text-align: center;
+}
+.top span{
+	font-family: 'Avenir Next', sans-serif;
+	color: #4A4A4A;
+	font-size: 20px;
+}
+.reg{
+	float: left;
+	text-decoration: none;
+	color: #4A90E2;
+	font-size: 15px;
+	text-decoration: underline;
+	font-family: 'Avenir Next', sans-serif;
+}
+.bot{
+	width: 400px;
+	height: 40px;
+}
+.text_bot{
+	width: 200px;
+	height: 40px;
+	float: left;
+	text-align: left;
+	padding-left: 10px;
+	line-height: 40px;
+}
+.text_bot span{
+	font-family: 'Avenir Next', sans-serif;
+	font-size: 15px;
+}
+.forma{
+	width: 500px;
+	height: auto;
+	margin: 15% auto;
+}
+.inp_form{
+	width: 390px;
+	height: 40px;
+	margin: 10px 5px;
+	border-radius: 8px;
+	border: 1px solid #f1f1f1;
+	background: #fff;
+}
+.text{
+	width: 90px;
+	height: 40px;
+	float: left;
+	background: #4A90E2;
+	border-radius: 8px 0 0 8px;
+}
+.text span{
+	line-height: 40px;
+	font-family: Arial;
+	font-size: 14px;
+	margin: 25px;
+	color: #fff;
+}
+.inp{
+	width: 300px;
+	height: 40px;
+	border: 1px solid #f1f1f1;
+	background: #fff;
+	outline: none;
+	float: right;
+	border-radius: 0 8px 8px 0;
+	padding-left: 5px;
+	color: #4A90E2;
+	font-weight: bold;
+}
+.inp:focus{
+	transition: 0.2s;
+	border: 1px solid #4A90E2;
+}
+.but{
+	width: 180px;
+	height: 40px;
+	float: right;
+	margin-right: 10px;
+	background: #4A90E2;
+	border: 0;
+	color: #fff;
+	cursor: pointer;
+}
+.capt{
+	width: 300px;
+	height: 50px;
+	line-height: 0px;
+}
+.pe{
+	margin-left: 10px;
+	height: 10px;
+	font-size: 15px;
+	color: #4A4A4A;
+	font-family: 'Avenir Next', sans-serif;
+}
+.buk{
+	height: 10px;
+	font-family: 'Avenir Next', sans-serif;
+	margin-left: 10px;
+	font-size: 25px;
+	color: #4A90E2;
+	font-weight: bold;
+}
+.error{
+	margin-left: 10px;
+	font-family: 'Avenir Next', sans-serif;
+	color: red;
+}
+.suc{
+	margin-left: 10px;
+	font-family: 'Avenir Next', sans-serif;
+	color: green;
+}

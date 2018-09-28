@@ -1,0 +1,8 @@
+.content_message{
+	width: 600px;
+	height: 100vh;
+	position: fixed;
+	background: #fff;
+	overflow: scroll;
+	overflow-x: hidden;
+}
